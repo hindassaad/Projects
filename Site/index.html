@@ -1,0 +1,134 @@
+<!-- index.html is root/home page of website. when u enter homepage of website it loads index.html-->
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title> <!--this won't be displayed on site, only on tab from top-->
+    </head>
+    <body>
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+        <!-- there are 6 headings: h1 to h6-->
+        <!-- Paragraphs -->
+        <p>
+            Lorem ipsum dolor <strong> hello hello hello </strong> sit amet, <em> em em em </em>consectetur adipisicing elit. Voluptates, quis?
+            <a href = "http://google.com" target = "_blank"> link</a>
+        </p>
+
+        <!-- List -->
+         <ul><!-- bullet points-->
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+         </ul>
+
+         <ol> <!-- numbered list -->
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+         </ol>
+
+         <!-- Tables -->
+          <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hind Asaad</td>
+                    <td>asaadh@mcmaster.ca</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Not Me</td>
+                    <td>asaadh@mcmaster.ca</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>And not me</td>
+                    <td>asaadh@mcmaster.ca</td>
+                    <td>18</td>
+                </tr>
+            </tbody>
+          </table>
+
+          <br>
+
+          <!-- Forms -->
+          <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type = "text" name = "firstName" placeholder="enter first name">
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type = "text" name="lastLame">
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <label>Email</label>
+                <input type = "email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name = "gender">
+                    <option value = "male">male</option>
+                    <option value = "female">female</option>
+                    <option value = "other">other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type = "number" name = "age" value = "31">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type = "date" name = "bday">
+            </div>
+
+            <br>
+            <div>
+                <input type = "submit" name = "submit" value = "Submit">
+            </div>
+            
+          </form>
+          <hr>
+
+          <!-- button -->
+           <button>Click Me</button>
+
+
+        <!-- images -->
+         <img src = "sample.jpg">
+
+
+
+          <div style = "margin-top:500px"></div>
+    </body>
+</html>
+
+
+<!-- tag element endtag-->
