@@ -1,0 +1,98 @@
+body {
+    font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+    background-color: #ddf3fc;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#name_of_page {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Make it inline, but allow margin/padding */
+    text-align: left;
+    font-size: 36px; /* Ensures it's big text */
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.sidebar h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cb28a8;
+}
+
+.content {
+    flex: 2;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ff4500;
+}
+
+.content a {
+    color: #006064;
+    text-decoration: none;
+}
+
+.callout {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #006064;
+    font-size: 16px;
+    color: #000;
+    background-color: #e8f8ff;
+}
+
+.social-icons {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #006064;
+}
